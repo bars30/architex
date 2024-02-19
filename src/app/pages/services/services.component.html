@@ -11,18 +11,23 @@
   </h1>
 </section>
 
-<section class="services_title">
- <h2>Our Services</h2>
- <img src="../../../assets/img/services/service/detail01.png" alt="">
-</section>
+
+ <h4>Our Services</h4>
+ 
 
 <section class="services">
  <div class="container">
   <div class="service_item">
-   <h2>
-    Building Design
-   </h2>
-   <div class="service_cont">
+   <div class="serv_cont" (click)="change('1')">
+    <h2>
+      Building Design
+     </h2>
+     <button (click)="change('1')" >
+      <img *ngIf="cont1" src="../../../assets/img/services/service/button-img.png" alt="">
+      <img *ngIf="!cont1" src="../../../assets/img/services/service/button-img-2.png" alt="">
+    </button>
+   </div>
+   <div class="service_cont" [ngClass]="{'service_cont_show':cont1}">
     <p class="service_text">
      Our expert team at Architex specializes in creating innovative
       and functional architectural designs tailored to meet the unique
@@ -34,11 +39,18 @@
     <img class="service_img" src="../../../assets/img/services/service/01.png" alt="">
    </div>
   </div>
+
   <div class="service_item">
-   <h2>
-    Renovation and Remodeling
-   </h2>
-   <div class="service_cont">
+   <div class="serv_cont" (click)="change('2')">
+    <h2>
+      Renovation and Remodeling
+     </h2>
+     <button (click)="change('2')" >
+      <img src="../../../assets/img/services/service/button-img.png" alt="" *ngIf="cont2">
+      <img src="../../../assets/img/services/service/button-img-2.png" *ngIf="!cont2" alt="">
+    </button>
+   </div>
+   <div class="service_cont" [ngClass]="{'service_cont_show':cont2}">
     <img class="service_img" src="../../../assets/img/services/service/02.png" alt="">
     <p class="service_text">
      Architex specializes in transforming spaces with innovative renovation 
@@ -52,11 +64,19 @@
 
    </div>
   </div>
+
+
   <div class="service_item">
-   <h2>
-    Interior Design
-   </h2>
-   <div class="service_cont">
+   <div class="serv_cont" (click)="change('3')">
+    <h2>
+      Interior Design
+     </h2>
+     <button (click)="change('3')" >
+      <img src="../../../assets/img/services/service/button-img.png" alt="" *ngIf="cont3">
+      <img src="../../../assets/img/services/service/button-img-2.png" *ngIf="!cont3" alt="">
+    </button>
+   </div>
+   <div class="service_cont" [ngClass]="{'service_cont_show':cont3}">
     <p class="service_text">
      Architex brings spaces to life through thoughtful and creative interior
       design solutions. Our expert team crafts personalized environments that 
@@ -71,10 +91,16 @@
    </div>
   </div>
   <div class="service_item">
-   <h2>
-    Material Selection
-   </h2>
-   <div class="service_cont">
+   <div class="serv_cont" (click)="change('4')">
+    <h2>
+      Material Selection
+     </h2>
+     <button (click)="change('4')" >
+      <img src="../../../assets/img/services/service/button-img.png" *ngIf="cont4" alt="">
+      <img src="../../../assets/img/services/service/button-img-2.png" *ngIf="!cont4" alt="">
+    </button>
+   </div>
+   <div class="service_cont" [ngClass]="{'service_cont_show':cont4}">
     <img class="service_img" src="../../../assets/img/services/service/04.png" alt="">
     <p class="service_text">
      At Architex, we understand the importance of selecting the right materials to 
@@ -90,11 +116,18 @@
 
    </div>
   </div>
+
   <div class="service_item">
-   <h2>
-    Lighting Design
-   </h2>
-   <div class="service_cont">
+   <div class="serv_cont" (click)="change('5')">
+    <h2>
+      Lighting Design
+     </h2>
+     <button (click)="change('5')" >
+      <img src="../../../assets/img/services/service/button-img.png" *ngIf="cont5" alt="">
+      <img src="../../../assets/img/services/service/button-img-2.png" *ngIf="!cont5" alt="">
+    </button>
+   </div>
+   <div class="service_cont" [ngClass]="{'service_cont_show':cont5}">
     <p class="service_text">
      Architex illuminates spaces with precision and creativity through our specialized 
      lighting design services. We recognize that lighting plays a crucial role in 
@@ -109,32 +142,16 @@
    </div>
   </div>
   <div class="service_item">
-   <h2>
-    Material Selection
-   </h2>
-   <div class="service_cont">
-    <img class="service_img" src="../../../assets/img/services/service/04.png" alt="">
-    <p class="service_text">
-     At Architex, we understand the importance of selecting the right materials to 
-     enhance the beauty, durability, and functionality of a space. Our meticulous 
-     approach to material selection involves a careful consideration of factors such 
-     as aesthetics, performance, sustainability, and budget. Leveraging our expertise
-      and industry knowledge, we guide our clients through a curated selection process
-      , offering a wide range of high-quality materials tailored to their specific needs
-       and preferences. From flooring and finishes to fixtures and fittings, we ensure 
-       every material chosen contributes to the overall success of the design,
-      creating spaces that are both visually stunning and built to last
-    </p>
-
+   <div class="serv_cont" (click)="change('6')">
+    <h2>
+      3D Visualization
+     </h2>
+     <button (click)="change('6')" >
+      <img src="../../../assets/img/services/service/button-img.png" alt="" *ngIf="cont6">
+      <img src="../../../assets/img/services/service/button-img-2.png" *ngIf="!cont6" alt="">
+    </button>
    </div>
-  </div>
-
-
-  <div class="service_item">
-   <h2>
-    3D Visualization
-   </h2>
-   <div class="service_cont">
+   <div class="service_cont" [ngClass]="{'service_cont_show':cont6}">
     <p class="service_text">
      Architex harnesses the power of cutting-edge technology to bring designs to
       life with stunning realism and clarity. Through our advanced 3D visualization
@@ -150,6 +167,84 @@
   </div>
  </div>
 </section>
+
+<h4>Our Process</h4>
+
+<section class="process">
+  <div class="process_cont1 container_flex">
+    <div class="process_item">
+      <h2>01</h2>
+      <h3>Consultation & Conceptualization</h3>
+      <p>
+        We begin by meeting with clients to understand their vision, goals, and
+         requirements for the project. 
+        Through collaborative brainstorming sessions, we develop initial
+         concepts and ideas.
+      </p>
+    </div>
+    <div class="process_item">
+      <h2>02</h2>
+      <h3>Design Development</h3>
+      <p>
+        Our team translates concepts into detailed designs, considering functionality,
+         aesthetics,
+         and feasibility. We present these designs to the client for feedback and refinement.
+      </p>
+    </div>
+    <div class="process_item">
+      <h2>03</h2>
+      <h3>Visualization & Approval</h3>
+      <p>
+        Using advanced 3D visualization techniques, we bring the designs to life,
+         allowing clients to visualize the end result.
+         Once designs are approved, we finalize documentation and materials.
+      </p>
+    </div>
+  </div>
+  <div class="process_cont2 container_flex">
+    <div class="process_min_cont">
+      <div class="process_item">
+        <h2>04</h2>
+        <h3>Construction & Implementation</h3>
+        <p>
+          We oversee the construction phase, working closely with contractors to 
+          ensure the design is executed to perfection. Regular site visits and 
+          quality checks are conducted to maintain standards.
+        </p>
+      </div>
+      <div class="process_item">
+        <h2>05</h2>
+        <h3>Completion & Client Handover</h3>
+        <p>
+          Upon project completion, we conduct a final inspection with the client 
+          to ensure satisfaction. We provide any necessary support 
+          and documentation, ensuring a seamless handover of the finished space.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

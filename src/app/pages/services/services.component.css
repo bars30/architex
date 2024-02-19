@@ -48,10 +48,27 @@ h1 .sp3{
 }
 .service_item h2 {
  font-family: 'Montserrat';
- margin-bottom: 8px;
+ margin: 4px 0;
 }
-.service_item:nth-child(2), .service_item:nth-child(4), .service_item:nth-child(6){
+.service_item:nth-child(2), 
+.service_item:nth-child(4),
+ .service_item:nth-child(6){
  background-color: #c8c6c3;
+}
+.service_item:nth-child(2) button,
+.service_item:nth-child(4) button,
+.service_item:nth-child(6) button {
+    background-color: #e8e6e4 !important;
+}
+.service_item:nth-child(2) button:hover,
+.service_item:nth-child(4) button:hover,
+.service_item:nth-child(6) button:hover {
+    background-color: #f3f1f0 !important;
+}
+.service_item:nth-child(1) button:hover,
+.service_item:nth-child(3) button:hover,
+.service_item:nth-child(5) button:hover {
+    background-color: #d9d7d6 !important;
 }
 .services_title {
  background-color: #e4e5e5;
@@ -65,14 +82,88 @@ h1 .sp3{
  bottom: 0;
  right: 0;
 }
-
-
-
-
-
-
-
-
+h4 {
+    width: 85%;
+    margin: auto;
+    font-size: 46px;
+    padding: 21px 0;
+    color: #72777c;
+}
+.serv_cont {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.serv_cont button {
+    width: 34px;
+    padding: 5px;
+    background-color: #cdcbc9;
+    border: none;
+    border-radius: 6px;
+}
+.serv_cont button img {
+    width: 100%;
+}
+.service_cont {
+    margin-top: 9px;
+    height: 0;
+  opacity: 0;
+  transition: height 1s ease;
+}
+.service_cont_show {
+    height: auto;
+  opacity: 1;
+}
+/* process */
+.process_item h2 {
+    font-size: 37px;
+    color: #b7b6b6;
+    transition: all 1s ease;
+}
+.process_item h3 {
+    color: #5e5750;
+    margin: 5px 0 9px;
+}
+.process_item {
+    border-top: 3.5px solid #b7b6b6;
+    padding: 27px;
+    position: relative;
+    transition: all 1s ease;
+}
+.process_item:hover h2 {
+    color: #878686;
+}
+.process_item:hover {
+    border-top: 3.5px solid #878686;
+    background-color: #b7b6b635;
+}
+.process_item:hover::before {
+    background-color: #878686;
+}
+.process_item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 30%;
+    width: 3.5px;
+    background-color: #b7b6b6;
+    transition: all 1s ease;
+}
+.process_cont1 {
+    margin-bottom: 25px;
+}
+.process_min_cont {
+    width: 66%;
+    display: flex;
+    justify-content: flex-start;
+}
+.process_cont2 {
+    justify-content: flex-end;
+}
+.process {
+    margin: 11px 0 83px;
+}
 
 
 

@@ -1,0 +1,100 @@
+img:nth-child(1){
+ width: 100%;
+}
+.gen_cont {
+ width: 90%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+h1 {
+ text-align: center;
+    font-size: 53px;
+    margin: 38px 0;
+    font-family: 'Montserrat';
+    color: #6e707a;
+}
+.info1 {
+ position: absolute;
+    top: 200px;
+    background-color: #d6d5dfe6;
+    padding: 25px 72px 25px 46px;
+}
+.info2 {
+ position: absolute;
+ top: 49px;
+ right: 0;
+ background-color: #b7bfcce0;
+ padding: 25px 35px 25px 55px;
+}
+.gen_cont h4 {
+ font-size: 53px;
+    position: absolute;
+    bottom: 50px;
+    left: 88px;
+    color: #f1f1f1;
+}
+.text1 {
+ font-size: 17px;
+ width: 53%;
+ margin: 25px 0 18px 0;
+}
+.img_cont {
+ width: 35%;
+ margin-top: 41px;
+}
+.img_cont img {
+ width: 100%;
+}
+.desc_cont {
+ padding: 35px 0;
+}
+h5 {
+ text-align: center;
+ font-size: 37px;
+ margin: 0 0 27px;
+ color: #1f1b20d6;
+}
+.advantage_item h2 {
+ color: #585657;
+ transition: all 0.4s ease-in;
+}
+.advantage_item p {
+ padding: 7px 0 0 28px;
+ font-size: 17px;
+ width: 85%;
+}
+.advantage_item {
+ margin-bottom: 18px;
+}
+.advantage_item:hover h2 {
+ color: #a39fa1;
+}
+.advantage_cont {
+ padding: 35px 0;
+}
+.slagon {
+ font-size: 17px;
+ width: 85%;
+ margin: auto;
+ text-align: center;
+ margin-bottom: 49px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
