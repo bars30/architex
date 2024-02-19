@@ -1,0 +1,50 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Inter';
+}
+:root {
+ --background-color: #f9f8f4;
+}
+.container_flex {
+ width: 85%;
+ margin: auto;
+ display: flex;
+ justify-content: space-between;
+}
+.container {
+ width: 85%;
+ margin: auto;
+}
+body {
+ overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
