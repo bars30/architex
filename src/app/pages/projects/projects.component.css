@@ -1,0 +1,87 @@
+.proj1 .img_cont {
+ display: block;
+    width: 60%;
+    position: relative;
+}
+.img_cont .gen_img {
+ width: 100%;
+}
+.proj1 .text_cont {
+ width: 37%;
+ padding-top: 2%;
+}
+.proj1 h2 {
+ font-size: 50px;
+ color: #7c7a7a;
+ font-family: 'Montserrat';
+ padding-bottom: 28%;
+}
+.point h4 {
+ color: gray;
+ font-family: 'Montserrat';
+}
+.point h5 {
+ font-size: 21px;
+ margin: 5px 0 22px 0;
+}
+.proj1 {
+ padding: 50px 0 24px;
+ position: relative;
+}
+.img_gallery img {
+ width: 32%;
+}
+.img1 {
+ position: absolute;
+ top: -15px;
+ left: -15px;
+}
+.img2 {
+ width: 20%;
+ position: absolute;
+ top: 30%;
+ right: -37px;
+}
+/* -------------------- */
+.descrip1 {
+ font-family: 'Montserrat';
+}
+.descrip1 p {
+ margin-bottom: 11px;
+}
+.descrip1 b {
+ display: inline-block;
+ width: 13px;
+}
+.descrip1 span {
+ color: #8c8b9b;
+    font-weight: 600;  
+}
+/* ---------------------------- */
+.project_container img {
+ width: 32%;
+ display: block;
+ transition: all 1s ease;
+ border-radius: 5px;
+}
+.project_container img:hover {
+ border-radius: 17px;
+ box-shadow: 1px 1px 7px #3a3b3c;
+}
+.project_container {
+ margin-bottom: 25px;
+}
+h1 {
+ font-size: 45px;
+ margin: 24px 0 25px;
+ color: #9a9ea3;
+}
+.project_cont2 {
+ margin-bottom: 62px;
+}
+
+
+
+
+
+

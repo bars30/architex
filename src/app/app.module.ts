@@ -7,10 +7,12 @@ import { HomeComponent } from './pages/home/home.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ServicesComponent } from './pages/services/services.component';
+import { ProjectsComponent } from './pages/projects/projects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,
