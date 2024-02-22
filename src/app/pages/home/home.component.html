@@ -52,7 +52,7 @@
       </p>
     </div>
     <h3>Importance of Lighting Design in Interior Spaces.</h3>
-    <div class="more_work_cont">
+    <div class="more_work_cont cnt">
       <p>
           Lighting design in interior spaces is crucial for setting ambiance,
          enhancing functionality, improving aesthetics, conserving energy, 
@@ -152,9 +152,9 @@
       We'll keep you informed about our latest projects, events, and news
     </p>
     <div class="input_cont">
-      <form>
-        <input type="email" placeholder="Your email...">
-        <button>Send</button>
+      <form [formGroup]="reactiveForm" (ngSubmit)="onFormSubmitted()">
+        <input type="email" placeholder="Your email..." formControlName="email">
+        <button [disabled]="!reactiveForm.valid">Send</button>
       </form>
     </div>
     </div>
@@ -162,17 +162,6 @@
   </div>
 </div>
 
-
-
-<!-- <p>
-  ggggggggggggggggggggggggggggggggggggggggggggggggggggggg
-</p>
-<p>
-  ggggggggggggggggggggggggggggggggggggggggggggggggggggggg
-</p>
-<p>
-  ggggggggggggggggggggggggggggggggggggggggggggggggggggggg
-</p> -->
 
 
 

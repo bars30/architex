@@ -1,14 +1,19 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css'],
-  standalone: true,
-  imports: [CommonModule]
+  styleUrls: ['./home.component.css','./home.component-res.css'],
+  standalone: true, 
+  imports: [CommonModule, ReactiveFormsModule]
 })
 export class HomeComponent implements OnInit {
+  reactiveForm: FormGroup = new FormGroup({
+    email: new FormControl('Your email...', [Validators.required, Validators.email])
+  })
+
   f1: boolean = true;
   f2: boolean = false;
   f3: boolean = false;
@@ -97,5 +102,8 @@ export class HomeComponent implements OnInit {
     }
     console.log(i);
     
+  }
+  onFormSubmitted(){
+
   }
 }

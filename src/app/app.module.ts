@@ -8,6 +8,7 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProjectsComponent } from './pages/projects/projects.component';
     HomeComponent,
     ToolbarComponent,
     FooterComponent,
-    ServicesComponent
+    ServicesComponent,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

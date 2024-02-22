@@ -143,8 +143,43 @@ b {
 .name span:nth-child(10n+29){
  transition-delay: 0.29s;
 }
+@media only screen and (max-width: 745px){
+    .slagon {
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 607px){
+    footer .container_flex {
+        display: block;
+    }
+    .mail {
+        padding: 11px 3px 13px 0;
+    }
+    .name {
+        width: 52%;
+    }
+}
+@media only screen and (max-width: 440px){
+    .name {
+        width: 77%;
+    }
+    .slagon {
+        width: 75%;
+        font-size: 13px;
+    }
+    .logo_cont img {
+        width: 120px;
+    }
+    .logo_cont h2 {
+        color: white;
+        padding-top: 41px;
+    }
+}
 
-
-
-
+@media only screen and (max-width: 365px){
+    .name {
+        width: 71%;
+        font-size: 9px;
+    }
+}
 

@@ -1,0 +1,35 @@
+<div class="container">
+ <h1>Contact Us</h1>
+ <img src="/assets/img/contact/01.png" alt="">
+ <h2>Send Message</h2>
+</div>
+<div class="container_flex">
+ <form [formGroup]="reactiveForm" (ngSubmit)="onFormSubmitted()">
+  <label>
+   Full Name: <br>
+   <input  type="text" formControlName="full_name">
+  </label>
+  <br>
+  <label>
+   Email Address: <br>
+   <input type="email" formControlName="email">
+  </label>
+  <br>
+  <label>
+   Message: <br>
+   <textarea name="message" cols="30" rows="4" formControlName="message"></textarea>
+  </label><br>
+  <button [disabled]="!reactiveForm.valid">Send</button>
+ </form>
+ <div class="message_img_cont">
+  <img src="/assets/img/contact/message.png" alt="">
+ </div>
+</div>
+
+
+
+
+
+
+
+

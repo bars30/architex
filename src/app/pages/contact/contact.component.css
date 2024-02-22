@@ -1,0 +1,61 @@
+img {
+ width: 100%;
+}
+h1 {
+ font-size: 45px;
+ margin: 18px 0;
+ font-family: 'Montserrat';
+}
+h2 {
+ font-size: 40px;
+ margin: 26px 0;
+}
+form {
+ width: 54%;
+ margin-bottom: 62px;
+}
+input, textarea {
+ width: 100%;
+ padding: 12px;
+ font-size: 17px;
+ border: none;
+ border-bottom: 3px solid #bfc0ca;
+ transition: all 0.4s ease;
+ background-color: #8080800d;
+ margin: 17px 0 23px;
+}
+input::placeholder, textarea::placeholder {
+ color: rgba(128, 128, 128, 0.615);
+}
+input:focus, textarea:focus {
+ outline: none;
+ background-color: #b8b6b63e;
+}
+form button {
+ padding: 7px 54px;
+ border-radius: 15px;
+ font-family: 'Inter';
+ font-size: 15px;
+ border: 2px solid gray;
+}
+.message_img_cont {
+ width: 42%;
+ position: relative;
+}
+.message_img_cont img {
+ position: absolute;
+ right: 0;
+ width: 70%;
+ top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
