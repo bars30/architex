@@ -10,6 +10,17 @@ import { RouterLink } from '@angular/router';
   imports: [CommonModule, RouterLink]
 })
 export class ToolbarComponent implements OnInit {
+  show: boolean = false;
+  hamburg(){
+    this.show = !this.show
+  }
+  close(){
+    if(window.innerWidth < 831){[
+      this.show = !this.show
+    ]}
+  }
+
+
   @ViewChild('n') elem!: ElementRef<any>;
   rotateValue: boolean = false;
   value: number = 0;

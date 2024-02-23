@@ -1,0 +1,142 @@
+@media only screen and (max-width: 1160px){
+ .gen_cont h4 {
+  font-size: 33px;
+  bottom: 21px;
+ }
+ .info1 {
+  top: 147px;
+ }
+}
+@media only screen and (max-width: 920px){
+ h1 {
+  font-size: 44px;
+  margin: 28px 0;
+ }
+ .gen_cont h4 {
+  font-size: 26px;
+ }
+ .info2 {
+  top: 39px;
+  padding: 16px 33px 16px 35px;
+  font-size: 14px;
+ }
+ .info1 {
+  top: 139px;
+  font-size: 14px;
+  padding: 13px 32px 13px 42px;
+ }
+ .desc_cont {
+  display: block;
+ }
+ .text1 {
+  font-size: 17px;
+  width: 100%;
+  margin: 25px 0 0px 0;
+ }
+ .img_cont {
+  width: 86%;
+  padding-top: 32px;
+  margin: auto;
+ }
+ .desc_cont {
+  padding: 35px 0 0 0;
+ }
+ h5 {
+  font-size: 32px;
+ }
+ .advantage_item p {
+  padding: 7px 0 0 28px;
+  font-size: 16px;
+  width: 100%;
+ }
+ .slagon {
+  font-size: 16px;
+ }
+}
+@media only screen and (max-width: 720px){
+ .info1, .info2 {
+  position: static;
+ }
+ .gen_cont h4 {
+  font-size: 21px;
+  bottom: 50%;
+  left: 7%;
+ }
+ h1 {
+  font-size: 39px;
+ }
+ .text1 {
+  font-size: 15px;
+  margin: 2px 0 0px 0;
+ }
+ h5 {
+  font-size: 23px;
+  margin-bottom: 17px;
+ }
+ .advantage_item h2 {
+  font-size: 22px;
+ }
+ .slagon {
+  font-size: 16px;
+  width: 88%;
+ }
+}
+@media only screen and (max-width: 505px){
+ .gen_cont h4 {
+  font-size: 18px;
+  bottom: 54%;
+ }
+ .text1 {
+  font-size: 14px;
+ }
+ h5 {
+  font-size: 20px;
+ }
+ .advantage_item h2 {
+  font-size: 17px;
+ }
+ .advantage_item p {
+  padding: 7px 0 0 22px;
+  font-size: 14px;
+ }
+ .slagon {
+  font-size: 13px;
+ }
+ .advantage_cont {
+  padding: 35px 0 15px;
+ }
+}
+@media only screen and (max-width: 425px){
+ .gen_cont h4 {
+  font-size: 15px;
+  bottom: 56%;
+ }
+ h1 {
+  font-size: 33px;
+ }
+}
+@media only screen and (max-width: 375px){
+ .gen_cont h4 {
+  font-size: 14px;
+  bottom: 62%;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

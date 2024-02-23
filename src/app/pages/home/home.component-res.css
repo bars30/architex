@@ -199,6 +199,7 @@
  }
  .up-to-date .gen-img {
   bottom: 0;
+  top: auto !important;
  }
  .up-to-date-co {
   padding: 31px 0 0 0;
@@ -206,6 +207,10 @@
  .up-to-date-co h2 {
   padding-left: 37%;
  }
+ .up-to-date-co h2 img {
+  width: 47px;
+  display: none;
+  }
 }
 @media only screen and (max-width: 595px){
  h1 {
