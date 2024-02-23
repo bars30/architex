@@ -19,7 +19,9 @@
    Message: <br>
    <textarea name="message" cols="30" rows="4" formControlName="message"></textarea>
   </label><br>
-  <button [disabled]="!reactiveForm.valid">Send</button>
+  <button [disabled]="!reactiveForm.valid" (mouseleave)="showTextFunc()"
+  (mouseenter)="showTextFunc()">Send</button>
+  <p *ngIf="showText">To send a message, all fields need to be correct.</p>
  </form>
  <div class="message_img_cont">
   <img src="/assets/img/contact/message.png" alt="">
