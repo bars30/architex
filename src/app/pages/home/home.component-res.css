@@ -128,6 +128,11 @@
   font-size: 21px;
   margin: 26px 0 9px 0;
  }
+ .up-to-date .gen-img {
+  width: 48%;
+  top: auto;
+  bottom: 0;
+  }
 }
 @media only screen and (max-width: 830px){
  .home_cont {
